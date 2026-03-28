@@ -1,0 +1,295 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(Aaron/IMG-20260324-WA0002.jpg )center/cover no-repeat;
+}
+
+.Main {
+    width: 100%;
+    background-color: rgb(176, 173, 204)50%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: 10px;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.LOGO {
+    color: brown;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 0;
+    float: left;
+    padding-top: 0px;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    height: 60px;
+    color: rgb(23, 12, 12)
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 10px;
+    margin-inline-start: auto;
+    padding: 0;
+}
+
+.menu {
+    margin: o 1rem;
+}
+
+.menu {
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.menu {
+    text-decoration: none;
+    color: brown;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
+
+}
+
+.menu:hover {
+    color: #fff;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-items: auto;
+    background-color: rgb(9, 9, 12);
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.search {
+    font-family: Arial;
+    width: 200px;
+    height: 40px;
+    margin-top: 13px;
+    color: brown;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    background: brown;
+    border: 2px solid brown;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0, 6s ease-in-out;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.btn:hover {
+    color: aqua;
+}
+
+.content {
+    width: 100%;
+    min-height: auto;
+    margin: 20px;
+    color: blanchedalmond;
+    position: relative;
+    background-color: blue;
+}
+
+.conten .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Times New "Roman";
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: arial;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    background-color: blue;
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.biko h1 {
+    margin-top: 10px;
+}
+
+.roni h2 {
+    font-family: Arial;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.cn {
+    width: 160px;
+    height: 40px;
+    border: 2px;
+    transition: 0, 6s ease-in-out;
+    color: azure;
+    background: brown;
+}
+
+.cn:hover {
+    color: aqua;
+}
+
+.form {
+    width: 250px;
+    height: 400px;
+    background: black;
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+    border-radius: 10px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: brown;
+    font-size: 20px;
+    background-color: beige;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid brown;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 240px;
+    height: 40px;
+    background: brown;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0, 6s ease-in-out;
+}
+
+.btn:hover {
+    background: #fff;
+    color: aqua;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.link {
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.liw {
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.aar {
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    background: blue;
+    color: #fff;
+    font-size: 17px;
+    transition: 0, 4s ease-in-out;
+    cursor: pointer;
+}
+
+.aar:hover {
+    color: brown;
+}
